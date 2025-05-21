@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let menu = parseInt(prompt("Menu \nPeça pelo Número \n100: Cachorro quente - R$1.70 \n 101: Bauru Simples – R$ 2,30 \n 102: Bauru com ovo – R$ 2,60 \n 103: Hambúrguer – R$ 2,40 \n 104: Cheeseburguer – R$ 2,50 \n 105: Refrigerante – R$ 1,00"));
+        let quantidade = parseInt(prompt("Quantos você quer?"));
+        let precoUnitario;
+        let precoTotal;
+
+
+        switch (menu) {
+            case 100:
+                precoUnitario = 1.70;
+                precoTotal = precoUnitario * quantidade;
+                alert("Você comprou" + quantidade + "Cachorros Quentes, total" + precoTotal.toFixed(2));
+                break;
+            case 101:
+                precoUnitario = 2.30;
+                precoTotal = precoUnitario * quantidade;
+                alert("Você comprou" + quantidade + "Bauru simples, total" + precoTotal.toFixed(2));
+                break;
+            case 102:
+                precoUnitario = 2.60;
+                precoTotal = precoUnitario * quantidade;
+                alert("Você comprou" + quantidade + "Bauru com ovo, total" + precoTotal.toFixed(2));
+                break;
+            case 103:
+                precoUnitario = 2.40;
+                precoTotal = precoUnitario * quantidade;
+                alert("Você comprou" + quantidade + "Hamburgueres, total" + precoTotal.toFixed(2));
+                break;
+            case 104:
+                precoUnitario = 2.50;
+                precoTotal = precoUnitario * quantidade;
+                alert("Você comprou" + quantidade + "Cheeseburguer, total" + precoTotal.toFixed(2));
+                break;
+            case 105:
+                precoUnitario = 1.00
+                precoTotal = precoUnitario * quantidade;
+                alert("Você comprou" + quantidade + "Refrigerante, total" + precoTotal.toFixed(2));
+                break;
+            default:
+                alert("Fora do Menu");
+                break;
+
+        }
+
+        alert("Obrigada pela preferencia!!!")
+    </script>
+</body>
+
+</html>

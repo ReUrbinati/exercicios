@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
@@ -10,61 +10,62 @@
 <body>
 
     <script>
-        let produto = parseInt(prompt("Número do produto"));
-        
+        let selecao = prompt("digite o codigo do produto");
+        let produto;
 
-        switch (produto) {
+        switch (selecao) {
 
             case '1':
-                resultado = ("Alimento não perecível");
+                produto = ("Alimento não perecível");
                 break;
             case '2':
-                resultado = ("Alimento perecível");
+                produto = ("Alimento perecível");
                 break;
             case '3':
-                resultado = ("Alimento perecível");
+                produto = ("Alimento perecível");
                 break;
             case '4':
-                resultado = ("Alimento perecível");
+                produto = ("Alimento perecível");
                 break;
             case '5':
-                resultado = ("Vestuário");
+                produto = ("Vestuário");
                 break;
             case '6':
-                resultado = ("Vestuário");
+                produto = ("Vestuário");
                 break;
             case '7':
-                resultado = ("Higienie Pessoal");
+                produto = ("Higienie Pessoal");
                 break;
-                case '8':
-                resultado = ("Limpeza e Utensílios Domésticos");
+            case '8':
+                produto = ("Limpeza e Utensílios Domésticos");
                 break;
-                case '9':
-                resultado = ("Limpeza e Utensílios Domésticos");
+            case '9':
+                produto = ("Limpeza e Utensílios Domésticos");
                 break;
-                case '10':
-                resultado = ("Limpeza e Utensílios Domésticos");
+            case '10':
+                produto = ("Limpeza e Utensílios Domésticos");
                 break;
-                case '11':
-                resultado = ("Limpeza e Utensílios Domésticos");
+            case '11':
+                produto = ("Limpeza e Utensílios Domésticos");
                 break;
-                case '12':
-                resultado = ("Limpeza e Utensílios Domésticos");
+            case '12':
+                produto = ("Limpeza e Utensílios Domésticos");
                 break;
-                case '13':
-                resultado = ("Limpeza e Utensílios Domésticos");
+            case '13':
+                produto = ("Limpeza e Utensílios Domésticos");
                 break;
-                case '14':
-                resultado = ("Limpeza e Utensílios Domésticos");
+            case '14':
+                produto = ("Limpeza e Utensílios Domésticos");
                 break;
-                case '15':
-                resultado = ("Limpeza e Utensílios Domésticos");
+            case '15':
+                produto = ("Limpeza e Utensílios Domésticos");
                 break;
-                default : 
-                resultado = ("Código inválido");
+            default:
+                produto = ("Código inválido");
 
         }
-        alert ("o produto é" + produto);
+
+        alert(produto);
 
     </script>
 </body>
